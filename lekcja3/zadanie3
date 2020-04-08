@@ -1,0 +1,7 @@
+zakupy= { "Mleko":"mililitry",
+"Masło":"gramy",
+"Chleb":"bochenki",
+"Płatki":"sztuki"}
+
+lista3 = [nazwa for nazwa in zakupy if zakupy[nazwa]=="sztuki"]
+print(lista3)
