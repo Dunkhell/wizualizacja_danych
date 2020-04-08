@@ -1,0 +1,7 @@
+def ileprod (**zakupy):
+    suma1=0
+    for i in zakupy:
+        suma1+=zakupy[i]
+    return suma1
+
+ileprod(ołówek=1, olej=5, orzechy=8, akacje=20)
