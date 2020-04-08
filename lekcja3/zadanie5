@@ -1,0 +1,9 @@
+
+def row(a1, a2):
+    if (a1==a2):
+        print("rownolegle")
+    elif (a1*a2==-1):
+        print("prostopadle")
+    else:
+        print("nie sa ani prostopadle ani rownolegle wzgledem siebie")
+row(1,2)
