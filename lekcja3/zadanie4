@@ -1,0 +1,9 @@
+def fun(x,y,a,b):
+    if (a>0):
+        print("rosnaca")
+    if (a<0):
+        print("malejaca")
+    else:
+        print ("stala")
+
+fun(1,2,0,4)
