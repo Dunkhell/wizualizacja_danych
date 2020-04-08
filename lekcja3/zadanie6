@@ -1,0 +1,7 @@
+import math as m
+
+def okrag(x,y,a=0,b=0):
+    r= m.sqrt((x-a)**2+(y-b)**2)
+    print (r)
+
+okrag(0,0,3,5)
