@@ -1,8 +1,0 @@
-def CoTrzy (data):
-    for index in range (0, len(data), 3):
-        yield data[index]
-
-
-gen = CoTrzy ("Feliksnavidad")
-print(next(gen))
-print(next(gen))
