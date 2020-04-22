@@ -1,9 +1,0 @@
-def Miesiace():
-    wsz= ["Styczeń","Luty","Marzec","Kwiecień","Maj","Czerwiec","Lipiec","Sierpień","Wrzesień","Październik","Listopad","Grudzień"]
-    for i in range (11):
-        yield wsz[i]
-
-
-mies= Miesiace()
-print(next(mies))
-print(next(mies))
