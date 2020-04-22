@@ -1,0 +1,21 @@
+from itertools import *
+
+
+def komb(ile):
+    for index in range(ile):
+        yield list(combinations('0123456789', 3))[index]
+
+
+gen = komb(10)
+
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+
